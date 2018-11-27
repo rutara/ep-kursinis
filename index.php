@@ -1,0 +1,7 @@
+<?php
+
+echo"Rutos testas";
+
+
+
+?>
