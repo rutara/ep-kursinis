@@ -1,7 +1,6 @@
 <?php 
 session_start();
 include("functions.php");
-
 ?>
 <!DOCTYPE HTML>
 <html lang="lt">
@@ -23,7 +22,6 @@ include("functions.php");
 	</form>	
    <?php
    if(isset($_POST['submit'])){
-    
      if(empty($_POST['name']) || empty($_POST['pass'])){
          $error = "tuscia";
     } else {
