@@ -1,6 +1,3 @@
-<?php 
-echo "main page";
-?>
 
 <!DOCTYPE HTML>
 <html lang="lt">
@@ -22,10 +19,9 @@ echo "main page";
       <a class="navbar-brand" href="#">Rutos ir Agnes kursinis projektas</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Projektai</a></li>
-      <li><a href="#">Klientai</a></li>
-      <li><a href="#">Sąskaitos</a></li>
+      <li><a href="projects.php">Projektai</a></li>
+      <li><a href="darbuotojai.php">Darbuotojai</a></li>
+      <li><a href="analize.php">Analizė</a></li>
     </ul>
   </div>
 </nav>

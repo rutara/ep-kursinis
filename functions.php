@@ -19,7 +19,7 @@ if (mysqli_connect_errno())
         $_SESSION['name']=$vardas;
         $user_id = $row['emp_id'];
         $_SESSION['emp_id']=$user_id;
-        header('Location: main.php');
+        header('Location: projects.php');
     }
     else{
         $error= "nei vienas row";
